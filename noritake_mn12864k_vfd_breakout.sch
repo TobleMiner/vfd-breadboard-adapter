@@ -21,6 +21,7 @@ F 0 "U3" V 6900 2000 50  0000 C CNN
 F 1 "SN74AVC8T245PW" V 7050 1950 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 7850 1450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf" H 6900 1850 50  0001 C CNN
+F 4 "C7859" V 6950 2100 50  0001 C CNN "LCSC"
 	1    6950 2100
 	-1   0    0    -1  
 $EndComp
@@ -32,6 +33,7 @@ F 0 "U5" V 9950 2100 50  0000 C CNN
 F 1 "SN74AVC8T245PW" V 9800 2000 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 10800 1450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf" H 9850 1850 50  0001 C CNN
+F 4 "C7859" V 9900 2100 50  0001 C CNN "LCSC"
 	1    9900 2100
 	1    0    0    -1  
 $EndComp
@@ -54,6 +56,7 @@ F 0 "U2" H 2850 6750 50  0000 R CNN
 F 1 "SN6501" H 2950 6650 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2800 7050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn6501.pdf" H 2800 7050 50  0001 C CNN
+F 4 "C49451" H 2800 6700 50  0001 C CNN "Field4"
 	1    2800 6700
 	1    0    0    -1  
 $EndComp
@@ -1071,4 +1074,26 @@ Wire Wire Line
 	6050 1050 6050 1800
 Wire Wire Line
 	6400 1300 6500 1300
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F61E373
+P 10550 6350
+F 0 "H2" H 10650 6396 50  0000 L CNN
+F 1 "MountingHole" H 10650 6305 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 10550 6350 50  0001 C CNN
+F 3 "~" H 10550 6350 50  0001 C CNN
+	1    10550 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F61F352
+P 10550 6150
+F 0 "H1" H 10650 6196 50  0000 L CNN
+F 1 "MountingHole" H 10650 6105 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 10550 6150 50  0001 C CNN
+F 3 "~" H 10550 6150 50  0001 C CNN
+	1    10550 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

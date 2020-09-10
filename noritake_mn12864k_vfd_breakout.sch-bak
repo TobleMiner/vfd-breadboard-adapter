@@ -21,6 +21,7 @@ F 0 "U3" V 6900 2000 50  0000 C CNN
 F 1 "SN74AVC8T245PW" V 7050 1950 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 7850 1450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf" H 6900 1850 50  0001 C CNN
+F 4 "C7859" V 6950 2100 50  0001 C CNN "LCSC"
 	1    6950 2100
 	-1   0    0    -1  
 $EndComp
@@ -32,6 +33,7 @@ F 0 "U5" V 9950 2100 50  0000 C CNN
 F 1 "SN74AVC8T245PW" V 9800 2000 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 10800 1450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf" H 9850 1850 50  0001 C CNN
+F 4 "C7859" V 9900 2100 50  0001 C CNN "LCSC"
 	1    9900 2100
 	1    0    0    -1  
 $EndComp
@@ -414,8 +416,6 @@ Wire Wire Line
 	6400 1700 6400 1300
 Connection ~ 6400 1300
 Wire Wire Line
-	6400 1300 6450 1300
-Wire Wire Line
 	7450 1700 7500 1700
 Wire Wire Line
 	7500 1700 7500 1300
@@ -642,8 +642,6 @@ F 3 "" H 6050 1050 50  0001 C CNN
 	1    6050 1050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 1050 6050 1150
 Wire Wire Line
 	6050 1800 5700 1800
 Wire Wire Line
@@ -1071,28 +1069,30 @@ F 3 "" H 8450 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8450 3250 8450 3200
+Wire Wire Line
+	6050 1050 6050 1800
+Wire Wire Line
+	6400 1300 6500 1300
 $Comp
-L Device:C C?
-U 1 1 5F5EE625
-P 6250 1150
-F 0 "C?" H 6365 1196 50  0000 L CNN
-F 1 "10uF" H 6365 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6288 1000 50  0001 C CNN
-F 3 "~" H 6250 1150 50  0001 C CNN
-F 4 "C15850" V 6250 1150 50  0001 C CNN "LCSC"
-	1    6250 1150
-	0    -1   -1   0   
+L Mechanical:MountingHole H2
+U 1 1 5F61E373
+P 10550 6350
+F 0 "H2" H 10650 6396 50  0000 L CNN
+F 1 "MountingHole" H 10650 6305 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 10550 6350 50  0001 C CNN
+F 3 "~" H 10550 6350 50  0001 C CNN
+	1    10550 6350
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 1150 6050 1150
-Connection ~ 6050 1150
-Wire Wire Line
-	6050 1150 6050 1800
-Wire Wire Line
-	6400 1150 6450 1150
-Wire Wire Line
-	6450 1150 6450 1300
-Connection ~ 6450 1300
-Wire Wire Line
-	6450 1300 6500 1300
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F61F352
+P 10550 6150
+F 0 "H1" H 10650 6196 50  0000 L CNN
+F 1 "MountingHole" H 10650 6105 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 10550 6150 50  0001 C CNN
+F 3 "~" H 10550 6150 50  0001 C CNN
+	1    10550 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
