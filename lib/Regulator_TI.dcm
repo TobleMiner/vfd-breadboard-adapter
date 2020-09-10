@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN6501
+F http://www.ti.com/lit/ds/symlink/sn6501.pdf
+$ENDCMP
+#
+#End Doc Library

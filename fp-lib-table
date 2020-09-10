@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name VFD_Noritake)(type KiCad)(uri ${KIPRJMOD}/lib/VFD_Noritake.pretty)(options "")(descr ""))
+  (lib (name Transformer_Würth)(type KiCad)(uri ${KIPRJMOD}/lib/Transformer_Würth.pretty)(options "")(descr ""))
+  (lib (name Inductor_Sunlord)(type KiCad)(uri ${KIPRJMOD}/lib/Inductor_Sunlord.pretty)(options "")(descr ""))
+)
