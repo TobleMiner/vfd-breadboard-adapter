@@ -56,6 +56,7 @@ F 0 "U2" H 2850 6750 50  0000 R CNN
 F 1 "SN6501" H 2950 6650 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2800 7050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn6501.pdf" H 2800 7050 50  0001 C CNN
+F 4 "C49451" H 2800 6700 50  0001 C CNN "Field4"
 	1    2800 6700
 	1    0    0    -1  
 $EndComp
